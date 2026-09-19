@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   keywords: ["Muhammad Aliyu Tukur", "Manex", "Manex Technologies", "Nigerian technologist", "cybersecurity student", "IoT Nigeria", "Nexmesh"], authors: [{ name: "Muhammad Aliyu Tukur" }], creator: "Muhammad Aliyu Tukur",
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
   alternates: { canonical: "/" },
-  openGraph: { type: "profile", title: "Muhammad Aliyu Tukur — Manex", description: "Cybersecurity student, founder, DICON IT intern and multidisciplinary technology builder from Kaduna, Nigeria.", siteName: "Manex", images: [{ url: "/images/manex-main.png", width: 1024, height: 1536, alt: "Muhammad Aliyu Tukur, known as Manex" }] },
+  openGraph: { type: "profile", title: "Muhammad Aliyu Tukur — Manex", description: "Cybersecurity student, founder, DICON IT intern and multidisciplinary technology builder from Kaduna, Nigeria.", siteName: "Manex", images: [{ url: "/images/manex-main.webp", width: 1024, height: 1536, alt: "Muhammad Aliyu Tukur, known as Manex" }] },
   twitter: { card: "summary_large_image", title: "Muhammad Aliyu Tukur — Manex", description: "Founder, cybersecurity student and multidisciplinary technology builder from Nigeria." }, icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
   verification: googleVerification ? { google: googleVerification } : undefined,
 };

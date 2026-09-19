@@ -53,7 +53,7 @@ export default async function Home() {
       </nav>
       <header id="top" className="hero shell">
         <div className="eyebrow"><span /> Kaduna, Nigeria · Building globally</div>
-        <figure className="heroPortrait"><Image src="/images/manex-main.png" alt="Muhammad Aliyu Tukur, known as Manex, wearing traditional Nigerian attire" width={1024} height={1536} priority /><figcaption>Portrait 001 · Manex</figcaption></figure>
+        <figure className="heroPortrait"><Image src="/images/manex-main.webp" alt="Muhammad Aliyu Tukur, known as Manex, wearing traditional Nigerian attire" width={1024} height={1536} priority /><figcaption>Portrait 001 · Manex</figcaption></figure>
         <h1>Muhammad<br /><em>Aliyu Tukur.</em></h1>
         <div className="heroBottom">
           <p>I&apos;m <strong>Manex</strong> — a cybersecurity student, founder and multidisciplinary builder turning ambitious ideas into useful technology.</p>

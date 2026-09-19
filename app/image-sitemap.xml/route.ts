@@ -1,5 +1,5 @@
 const images = [
-  ["/images/manex-main.png", "Muhammad Aliyu Tukur — Manex", "Official portrait of Nigerian technologist and founder Muhammad Aliyu Tukur"],
+  ["/images/manex-main.webp", "Muhammad Aliyu Tukur — Manex", "Official portrait of Nigerian technologist and founder Muhammad Aliyu Tukur"],
   ["/images/muhammad-aliyu-tukur-futb-techfest-medal.jpg", "Muhammad Aliyu Tukur at FUTB TechFest 2.0", "Manex displaying his medal at FUTB TechFest 2.0"],
   ["/images/manex-futb-techfest-session.jpg", "Manex at a FUTB technology session", "Muhammad Aliyu Tukur participating in a technology event at FUTB"],
   ["/images/muhammad-aliyu-tukur-futb-campus.jpg", "Muhammad Aliyu Tukur at FUTB", "Manex in a lecture hall at Federal University of Technology Babura"],
