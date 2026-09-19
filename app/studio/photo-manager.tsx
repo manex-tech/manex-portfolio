@@ -8,8 +8,9 @@ export default function PhotoManager({ initialPhotos }: { initialPhotos: PublicP
   async function upload(formData: FormData) {
     setBusy(true); setMessage("");
     const response = await fetch("/api/photos", { method: "POST", body: formData });
-    const data = await response.json().catch(() => ({})); setBusy(false);
+    const data = await response.json().catch(() => ({})) as { error?: string; photo?: PublicPhoto }; setBusy(false);
     if (!response.ok) return setMessage(data.error || "The upload could not be completed.");
+    if (!data.photo) return setMessage("The upload response was incomplete.");
     setItems([data.photo, ...items]); setMessage("Published to your photo journal.");
     (document.getElementById("photo-form") as HTMLFormElement)?.reset();
   }
