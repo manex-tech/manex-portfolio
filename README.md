@@ -14,7 +14,7 @@ pnpm dev
 1. Import this GitHub repository into Vercel.
 2. Keep the detected Next.js framework settings.
 3. Leave **Output Directory** empty so Vercel uses the standard `.next` output.
-4. Add `NEXT_PUBLIC_SITE_URL` with the final production URL, for example `https://manextech.com`.
+4. Add `NEXT_PUBLIC_SITE_URL` with the complete final production URL, including `https://`, for example `https://manextech.com`.
 5. Redeploy after adding or changing the domain.
 
 The public portfolio and permanent gallery deploy without additional services. The private upload studio needs a Vercel-compatible database and object storage provider before uploads can be enabled on Vercel.
